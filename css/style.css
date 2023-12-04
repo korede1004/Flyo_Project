@@ -1,0 +1,49 @@
+:root{
+--Very-Dark-Blue: hsl(243, 87%, 12%);
+--De-saturated-Blue: hsl(238, 22%, 44%);
+--Bright-Blue: hsl(224, 93%, 58%);
+--Moderate-Cyan: hsl(170, 45%, 43%);
+--Light-Grayish-Blue: hsl(240, 75%, 98%);
+--Light-Gray: hsl(0, 0%, 75%);
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* start of styling of the header */
+
+/* End of Styling of the header */
+
+
+/* start of styling of the main */
+
+
+/* start of styling of first hero section */
+
+/* End of Styling of first hero section */
+
+
+/* start of styling of second hero section */
+
+/* End of Styling of second hero section */
+
+
+/* start of styling of third hero section */
+
+/* start of styling of third hero section */
+
+
+
+/* End of Styling of the main */
+
+
+
+/* start of styling of the footer */
+
+/* End of Styling of the footer */
