@@ -139,8 +139,10 @@
             </p>
           </div>
           <div class="hero-three-call-to-action">
-            <input type="text" name="text" placeholder="email@example.com"/>
-            <button type="submit" aria-label="Submit your email">Get Started For Free</button>
+            <form action="#">
+              <input type="email" name="email" placeholder="email@example.com" required/>
+             <button type="submit" aria-label="Submit your email" name="email">Get Started For Free</button>
+            </form>
           </div>
         </div>
       </section>
@@ -152,16 +154,22 @@
     <footer>
       <div class="footer-content">
         <div class="contact-us">
-          <img src="./images/logo.svg" alt="Fylo Logo">
+          <div class="Fylo-logo"><img src="./images/logo copy.svg" alt="Fylo Logo"></div>
           <div class="contact-info-phone">
-            <img src="./images/icon-phone.svg" alt="Phone Icon" aria-label="Make a phone call">
-            <p><strong>Phone</strong></p>
-            <p>+1-543-123-4567</p>
+            <div class="phoneCall">
+              <img src="./images/icon-phone.svg" alt="Phone Icon" aria-label="Make a phone call">
+            </div>
+            <div>
+              <p>Phone: <span>+1-543-123-4567</span></p>
+            </div>
           </div>
           <div class="contact-info-call">
-            <img src="./images/icon-email.svg" alt="Email Icon" aria-label="Send a mail">
-            <p><strong>Email</strong></p>
-            <p>example@flyo.cpm</p> 
+            <div>
+              <img src="./images/icon-email.svg" alt="Email Icon" aria-label="Send a mail">
+            </div>
+            <div>
+              <p>example@flyo.cpm</p> 
+            </div>
           </div>
         </div>
         <div class="footer-links">
@@ -182,15 +190,15 @@
         <div class="footer-social">
           <ul>
             <li><a href=""><img src="./images/facebook-app-symbol.png" alt="Facebook Icon" width="20px" aria-label="Follow Flyo on Facebook"></li>
-            <li><a href=""><img src="./images/twitter.png" alt="Twitter Icon" width="20px" aria-label="Follow Flyo on Twitter"></a></li>
+            <li><a href="">
+
+              
+              <img src="./images/twitter.png" alt="Twitter Icon" width="20px" aria-label="Follow Flyo on Twitter"></a></li>
             <li><a href=""><img src="./images/instagram.png" alt="Instagram Icon" width="20px" aria-label="Follow Flyo on Instagram"></a></li>
           </ul>
         </div>
       </div>
     </footer>
     <!-- End of the footer -->
-
-
-    <i class="fa-solid fa-user"></i>
   </body>
 </html>
