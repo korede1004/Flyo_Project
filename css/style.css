@@ -290,10 +290,10 @@ footer{
   padding-inline: 20px
 }
 .footer-content{
-  padding-block: 50px;
+  padding-block: 70px;
 
   >.contact-us .Fylo-logo{
-    padding-block-end: 20px;
+    padding-block-end: 40px;
   }
 
 }
@@ -305,11 +305,13 @@ footer{
   }
 }
 .footer-links{
-  padding-block-end: 30px;
+  /* padding-block-end: 50px; */
+  padding-block: 40px;
   >ul li{
     list-style-type: none;
     padding-block: 10px;
   }
+
   >ul li a{
     text-decoration: none;
     color: var(--white);
