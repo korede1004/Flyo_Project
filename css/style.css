@@ -60,11 +60,12 @@ header, .hero-one{
   background-color: var(--white);
 }
 
-
 .logo img {
   width: 120px;
 }
 /* End of Styling of the header */
+
+
 
 /* start of styling of the main */
 main {
@@ -109,7 +110,8 @@ main {
 input {
   width: 100%;
   height: 35px;
-  border-bottom-width: 1.5px;
+  border: .5px solid var(--De-saturated-Blue);
+  border-radius: 2px;
 }
 input[placeholder] {
   padding-inline-start: 8px;
@@ -123,11 +125,14 @@ input[placeholder] {
   color: #fff;
   border: none;
   border-radius: 3px;
-  height: 30px;
   width: 100%;
+  padding-block: 10px;
   background-color: var(--Bright-Blue);
 }
 
+h2{
+  font-family: "Raleway" !important; 
+}
 /* End of Styling of first hero section */
 
 
@@ -147,8 +152,7 @@ input[placeholder] {
     padding-block-end: 100px;
   }
   >.hero-two-content .hero-two-text h2{
-    font-size: 1rem;
-    font-family: "Raleway", sans-serif;
+    font-size: 1rem;   
     font-weight: 700;
     color: var(--Very-Dark-Blue);
     padding-block-end:25px;
@@ -178,6 +182,8 @@ input[placeholder] {
   >.hero-two-content .hero-two-text .call-to-action:hover{
     cursor: pointer;
   }
+
+  /* Styling of the card starts */
   .card{
     width: 300px;
     margin: 20px auto;
@@ -190,8 +196,8 @@ input[placeholder] {
     width: 14px;
   }
   .card .text p{
-  font-size: 12px;
-  font-weight: 700;
+    font-size: 12px;
+    font-weight: 700;
   }
   
   .card img{
@@ -205,7 +211,8 @@ input[placeholder] {
     padding-block: 0;
     padding-inline-start: 10px;
   }
-
+  /* Styling of the card starts */
+  
 }
 
 /* End of Styling of second hero section */
@@ -271,8 +278,10 @@ input[placeholder] {
   }
 }
 /* start of styling of third hero section */
-
 /* End of Styling of the main */
+
+
+
 
 /* start of styling of the footer */
 footer{
@@ -281,12 +290,8 @@ footer{
   padding-inline: 20px
 }
 .footer-content{
+  padding-block: 50px;
 
-  
-  >.contact-us{
-    padding-block: 50px;
-  }
-  
   >.contact-us .Fylo-logo{
     padding-block-end: 20px;
   }
@@ -315,16 +320,24 @@ footer{
   
 }
 .footer-social{
-  padding-block-end: 30px;
-  >ul li{
-    list-style-type: none;
+  text-align: center;
+  >a{
+    margin-inline: 15px;
   }
- 
-}
-.footer-social ul{
-  display: flex;
-}
+  
+  >a img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    padding-inline: 10px;
 
+  }
+  >a img{
+    color: yellowgreen;
+  }
+  
+}
 /* End of Styling of the footer */
 
 
