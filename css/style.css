@@ -401,8 +401,9 @@ footer{
       justify-content: space-between;
       flex-direction: row;
       column-gap: 20px;
+      align-items: baseline;
     }
-
+    
     
     .button {
       padding: 0;
@@ -411,7 +412,6 @@ footer{
       /* width: 40%; */
       padding-block: 10px;
       /* padding-block-end: 0; */
-      width: 35%;
     }
   }
   .cta div input{
